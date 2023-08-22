@@ -236,10 +236,11 @@ main{
                 position: fixed;
                 top:50px;
                 right:15px;
-                span{                 
+                span{          
+                    transition:0.3s ease-in-out;       
                     position: absolute;
                     right: 0;
-                    top: 0;                 
+                    top: 0;                                 
                 }
 
                 span:first-child{                    
@@ -247,7 +248,7 @@ main{
                    
                 }
                 span:nth-child(2){
-                    transform: rotate(-45deg);
+                    transform: rotate(135deg);
                    
                 }
                 span:last-child{

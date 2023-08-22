@@ -181,6 +181,7 @@ main .top-container .new a:hover h3 {
     right: 15px;
   }
   body.open .mobile-nav span {
+    transition: 0.3s ease-in-out;
     position: absolute;
     right: 0;
     top: 0;
@@ -189,7 +190,7 @@ main .top-container .new a:hover h3 {
     transform: rotate(45deg);
   }
   body.open .mobile-nav span:nth-child(2) {
-    transform: rotate(-45deg);
+    transform: rotate(135deg);
   }
   body.open .mobile-nav span:last-child {
     display: none;
